@@ -4,7 +4,7 @@ import time
 
 def main(stdscr):
     
-    curses.curs_set(0)  # Hide the cursor
+    curses.curs_set(0)  
     curses.start_color()
     curses.init_pair(1, curses.COLOR_GREEN, curses.COLOR_BLACK)  # Snake color
     curses.init_pair(2, curses.COLOR_RED, curses.COLOR_BLACK)    # Food color
